@@ -3,6 +3,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Usuario u1 = new Usuario();
+        CaixaEletronico caixa = new CaixaEletronico();
+        caixa.nota[
+        Notas nota100 = new Notas();
+        nota100.valor=100;
+        nota100.quantNotas=40;
         u1.nome="Carlos";
         u1.saldo=7005;
         Scanner input = new Scanner(System.in);
