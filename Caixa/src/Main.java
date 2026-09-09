@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Usuario u1 = new Usuario();
         CaixaEletronico caixa = new CaixaEletronico();
-        caixa.nota[
+        caixa.nota={nota100,}
         Notas nota100 = new Notas();
         nota100.valor=100;
         nota100.quantNotas=40;
