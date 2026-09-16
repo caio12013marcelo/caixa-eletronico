@@ -47,7 +47,9 @@ public class Main {
                     break;
             }
         }
-        System.out.println(moedas[0].quantNotas);
+        for (int i = 0; i < moedas.length ; i++) {
+            System.out.println(moedas[i].valor+" "+ moedas[i].quantNotas);
+        }
         input.close();
     }
 }
